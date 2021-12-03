@@ -47,10 +47,12 @@ import java.util.Scanner;
  */
 public class OBJinfo {
 
-	private ArrayList<Float> vertices, normals, texture;
-	private ArrayList<Integer> triangles;
-	private float triangleList[];
-	private float normalList[];
+	private final ArrayList<Float> vertices;
+	private final ArrayList<Float> normals;
+	private final ArrayList<Float> texture;
+	private final ArrayList<Integer> triangles;
+	private float[] triangleList;
+	private float[] normalList;
 	
 	/**
 	 * Process a string of tokens that represent a vertex. 
